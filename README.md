@@ -41,5 +41,6 @@ where `to_predict.json` contains:
 or
 
 `curl -X POST -H "Content-Type: application/json" -d '{"grade":9.0,"lat":37.45,"long":12.09,"sqft_living":1470.08,"waterfront":0.0,"yr_built":2008.0}' http://localhost:8080/predict_price`
-
+#
+Credits to: Abhinav Sagar
 
