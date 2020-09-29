@@ -13,16 +13,16 @@
 
 <body style="background: #000;">
  <div class="login">
-	<h1>Sales Forecasting</h1>
+	<h1>Banking Credit Forecasting</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="rate" placeholder="rate" required="required" />
-        <input type="text" name="sales in first month" placeholder="sales in first month" required="required" />
-		<input type="text" name="sales in second month" placeholder="sales in second month" required="required" />
+        <input type="text" name="Credit in first month" placeholder="Credit in first month" required="required" />
+		<input type="text" name="Credit in second month" placeholder="Credit in second month" required="required" />
 
 
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict sales in third month</button>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predicted Credit Card bill in third month</button>
     </form>
 
    <br>
