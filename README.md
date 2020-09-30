@@ -15,7 +15,6 @@ Launch machine learning models into production using flask, docker etc.
 
 `python app.py`
 
-![Logo](i1.png)
 
 # 2. Predict Prices
 
